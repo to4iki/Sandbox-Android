@@ -95,7 +95,17 @@ gradle-app.setting
 !gradle-wrapper.jar
 
 ### macOS ###
-*.DS_Store
+.DS_Store
+*.swp
+
+### Ruby ###
+*.gem
+*.rbc
+
+## Environment normalization:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
 
 ### fastlane ###
 # fastlane - A streamlined workflow tool for Cocoa deployment
